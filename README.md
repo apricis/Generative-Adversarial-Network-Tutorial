@@ -12,13 +12,13 @@ The tutorial is written in Python, with the Tensorflow library, so it would be g
 
 1. First step is always to clone the repository. 
 ~~~~
-git clone https://github.com/uclaacmai/Generative-Adversarial-Network-Tutorial.git
+git clone https://github.com/apricis/Generative-Adversarial-Network-Tutorial.git
 ~~~~
-2. Next, we want to make sure we have Jupyter Notebook installed. You can either follow one of two paths. You can either install Anaconda (which installs Python, Jupyter Notebook, and a bunch of other useful computing libraries) or use pip.
+2. Next, we want to make sure we have Jupyter Notebook and other necessary packages installed. 
 
-- To install Anaconda, take a look at their [website](https://www.continuum.io/downloads), which has some pretty great documentation. 
+NOTE: Instead of installing *only* necessary packages, you can install Anaconda (which installs Python, Jupyter Notebook, and a bunch of other useful computing libraries). The disadvantage is that you'll give out more space for much more packages than you need. But if you decide to go that way, take a look at Anaconda's [website](https://www.continuum.io/downloads), which has some pretty great documentation.
 
-- If you want to install using pip, you'll need to update pip with the following code (Replace pip with pip3 if using Python 3). 
+The recommended way is to install using python's package manager *pip*. For that you'll need to update pip with the following code (Replace pip with pip3 if using Python 3). 
 
 On Linux/Mac OS:
 ~~~~
@@ -33,6 +33,8 @@ python -m pip install -U pip setuptools
 Next, you should be able to run the following. 
 ~~~~
 pip install jupyter
+pip install tensorflow
+pip install matplotlib
 ~~~~
 
 3. Finally, run the following command and a new tab in your browser with the Jupyter Notebook should come up
